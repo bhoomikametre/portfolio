@@ -13,17 +13,17 @@
     }
 
     body {
-      background: linear-gradient(135deg, #f8e8ff, #ffe8f0);
-      color: #333;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
       line-height: 1.6;
     }
 
     header {
-      background: linear-gradient(90deg, #9d4edd, #ff6ec7);
+      background: linear-gradient(90deg, #6a0dad, #9d4edd);
       color: white;
       text-align: center;
       padding: 2rem 0;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
     }
 
     header h1 {
@@ -32,16 +32,18 @@
 
     header p {
       font-size: 1.1rem;
+      color: #e8d4ff;
     }
 
     nav {
-      background: #7b2cbf;
+      background: #1a1a1a;
       text-align: center;
-      padding: 10px;
+      padding: 12px 0;
+      border-bottom: 2px solid #9d4edd;
     }
 
     nav a {
-      color: white;
+      color: #e0e0e0;
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
@@ -49,39 +51,35 @@
     }
 
     nav a:hover {
-      color: #ffb3ec;
+      color: #9d4edd;
     }
 
     section {
       max-width: 900px;
       margin: 30px auto;
-      background: white;
+      background: #1a1a1a;
       padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 20px rgba(157, 78, 221, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.01);
     }
 
     h2 {
-      color: #7b2cbf;
+      color: #9d4edd;
       margin-bottom: 10px;
+      border-bottom: 2px solid #9d4edd;
+      display: inline-block;
+      padding-bottom: 5px;
     }
 
     ul {
       list-style-type: square;
       margin-left: 20px;
-    }
-
-    footer {
-      background: #9d4edd;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 40px;
-      box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
-    }
-
-    footer p {
-      font-size: 0.9rem;
+      color: #ccc;
     }
 
     a {
@@ -90,6 +88,24 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      background: #111;
+      color: #b3b3b3;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      border-top: 2px solid #9d4edd;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* Smooth Scroll Effect */
+    html {
+      scroll-behavior: smooth;
     }
   </style>
 </head>
