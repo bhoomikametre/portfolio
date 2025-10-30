@@ -13,20 +13,21 @@
     }
 
     body {
-      background-color: #f4f8fb;
+      background: linear-gradient(135deg, #f8e8ff, #ffe8f0);
       color: #333;
       line-height: 1.6;
     }
 
     header {
-      background: #0077b6;
+      background: linear-gradient(90deg, #9d4edd, #ff6ec7);
       color: white;
       text-align: center;
       padding: 2rem 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
     header h1 {
-      font-size: 2.2rem;
+      font-size: 2.3rem;
     }
 
     header p {
@@ -34,7 +35,7 @@
     }
 
     nav {
-      background: #023e8a;
+      background: #7b2cbf;
       text-align: center;
       padding: 10px;
     }
@@ -44,10 +45,11 @@
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
+      transition: color 0.3s;
     }
 
     nav a:hover {
-      text-decoration: underline;
+      color: #ffb3ec;
     }
 
     section {
@@ -55,21 +57,13 @@
       margin: 30px auto;
       background: white;
       padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     h2 {
-      color: #0077b6;
+      color: #7b2cbf;
       margin-bottom: 10px;
-    }
-
-    img {
-      width: 130px;
-      border-radius: 50%;
-      display: block;
-      margin: 10px auto 20px;
-      border: 3px solid #0077b6;
     }
 
     ul {
@@ -78,15 +72,24 @@
     }
 
     footer {
-      background: #023e8a;
+      background: #9d4edd;
       color: white;
       text-align: center;
       padding: 15px;
       margin-top: 40px;
+      box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
     }
 
     footer p {
       font-size: 0.9rem;
+    }
+
+    a {
+      color: #9d4edd;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -106,7 +109,6 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <img src="https://via.placeholder.com/130" alt="Bhoomika's Photo">
     <p>Hi! I'm <strong>Bhoomika</strong> from <strong>Bidar, Karnataka</strong>. I'm a passionate Computer Science student currently studying at <strong>Dayananda Sagar College of Engineering, Bengaluru</strong>. I enjoy learning programming, creating websites, and exploring new technologies.</p>
   </section>
 
@@ -122,7 +124,7 @@
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li><strong>Personal Portfolio Website</strong> – Built using HTML, CSS</li>
+      <li><strong>Personal Portfolio Website</strong> – Built using HTML & CSS</li>
       <li><strong>Student Result Calculator</strong> – A Java program to calculate student grades</li>
       <li><strong>To-Do List App</strong> – A basic task management app using JavaScript</li>
     </ul>
@@ -136,7 +138,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Bhoomika Metre | Designed with ❤️ by Bhoomika</p>
+    <p>© 2025 Bhoomika Metre | Designed with 💜 by Bhoomika</p>
   </footer>
 
 </body>
