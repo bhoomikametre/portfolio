@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhoomika | Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
-      background-color: #f4f4f9;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f8fb;
       color: #333;
+      line-height: 1.6;
     }
 
     header {
-      background-color: #0077b6;
+      background: #0077b6;
       color: white;
       text-align: center;
-      padding: 1.5rem 0;
+      padding: 2rem 0;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
     }
 
     nav {
       background: #023e8a;
-      padding: 10px;
       text-align: center;
+      padding: 10px;
     }
 
     nav a {
@@ -37,71 +51,92 @@
     }
 
     section {
-      padding: 30px;
-      max-width: 800px;
-      margin: auto;
+      max-width: 900px;
+      margin: 30px auto;
       background: white;
-      margin-top: 20px;
+      padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     h2 {
       color: #0077b6;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #023e8a;
-      color: white;
-      margin-top: 30px;
+      margin-bottom: 10px;
     }
 
     img {
+      width: 130px;
       border-radius: 50%;
-      width: 120px;
       display: block;
-      margin: 10px auto;
+      margin: 10px auto 20px;
+      border: 3px solid #0077b6;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>My Portfolio</h1>
-    <p>Web Developer | Designer | Learner</p>
+    <h1>Bhoomika Metre</h1>
+    <p>Student | Web Developer | Learner</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
+    <a href="#education">Education</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about">
     <h2>About Me</h2>
-    <img src="https://via.placeholder.com/120" alt="My Photo">
-    <p>Hello! I'm <strong>Bhoomika Metre</strong>, a passionate web developer who loves creating clean and responsive websites. I enjoy learning new technologies and improving my coding skills.</p>
+    <img src="https://via.placeholder.com/130" alt="Bhoomika's Photo">
+    <p>Hi! I'm <strong>Bhoomika</strong> from <strong>Bidar, Karnataka</strong>. I'm a passionate Computer Science student currently studying at <strong>Dayananda Sagar College of Engineering, Bengaluru</strong>. I enjoy learning programming, creating websites, and exploring new technologies.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor of Engineering (B.E)</strong> in Computer Science - Dayananda Sagar College of Engineering, Bengaluru</li>
+      <li><strong>Pre-University Course (PUC)</strong> - Bidar</li>
+      <li><strong>Schooling</strong> - Bidar</li>
+    </ul>
   </section>
 
   <section id="projects">
-    <h2>My Projects</h2>
+    <h2>Projects</h2>
     <ul>
-      <li><strong>Portfolio Website</strong> – A simple personal website built using HTML & CSS.</li>
-      <li><strong>To-Do App</strong> – A basic JavaScript app for task management.</li>
-      <li><strong>Student Result Calculator</strong> – A Java-based program to calculate student percentages and grades.</li>
+      <li><strong>Personal Portfolio Website</strong> – Built using HTML, CSS</li>
+      <li><strong>Student Result Calculator</strong> – A Java program to calculate student grades</li>
+      <li><strong>To-Do List App</strong> – A basic task management app using JavaScript</li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:bhoomika@example.com">bhoomika@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/bhoomika</a></p>
+    <p>📧 Email: <a href="mailto:bhoomika@example.com">bhoomika@example.com</a></p>
+    <p>🔗 LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/bhoomika</a></p>
+    <p>📍 Location: Bidar, Karnataka</p>
   </section>
 
   <footer>
-    <p>© 2025 Bhoomika Metre | All Rights Reserved</p>
+    <p>© 2025 Bhoomika Metre | Designed with ❤️ by Bhoomika</p>
   </footer>
 
 </body>
